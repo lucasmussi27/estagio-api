@@ -1,10 +1,6 @@
 package dev.nirvana.estagio.modules.Transaction;
 import java.sql.Date;
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import dev.nirvana.estagio.modules.Product.Product;
 import dev.nirvana.estagio.modules.utils.Status;
 import lombok.*;

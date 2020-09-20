@@ -10,7 +10,7 @@ import lombok.*;
 @ToString(of = "id")
 @Table(name = "product")
 public class Product {
-  @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+  @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
   @Column(name="prod_name")
   private String name;
